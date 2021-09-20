@@ -9,3 +9,14 @@ C:\Users\jb83292\source\repos\Hoehenlinien\ContourMap\ContourMap\obj\Debug\Conto
 C:\Users\jb83292\source\repos\Hoehenlinien\ContourMap\ContourMap\obj\Debug\ContourMap.exe
 C:\Users\jb83292\source\repos\Hoehenlinien\ContourMap\ContourMap\obj\Debug\ContourMap.pdb
 C:\Users\jb83292\source\repos\Hoehenlinien\ContourMap\ContourMap\obj\Debug\ContourMap.Hillproject.resources
+C:\Users\jb83292\source\repos\HoehenlinienMitDelanayTriangulation\ContourMap\ContourMap\bin\Debug\ContourMap.exe.config
+C:\Users\jb83292\source\repos\HoehenlinienMitDelanayTriangulation\ContourMap\ContourMap\bin\Debug\ContourMap.exe
+C:\Users\jb83292\source\repos\HoehenlinienMitDelanayTriangulation\ContourMap\ContourMap\bin\Debug\ContourMap.pdb
+C:\Users\jb83292\source\repos\HoehenlinienMitDelanayTriangulation\ContourMap\ContourMap\obj\Debug\ContourMap.csprojAssemblyReference.cache
+C:\Users\jb83292\source\repos\HoehenlinienMitDelanayTriangulation\ContourMap\ContourMap\obj\Debug\ContourMap.Hillproject.resources
+C:\Users\jb83292\source\repos\HoehenlinienMitDelanayTriangulation\ContourMap\ContourMap\obj\Debug\ContourMap.Properties.Resources.resources
+C:\Users\jb83292\source\repos\HoehenlinienMitDelanayTriangulation\ContourMap\ContourMap\obj\Debug\ContourMap.csproj.GenerateResource.cache
+C:\Users\jb83292\source\repos\HoehenlinienMitDelanayTriangulation\ContourMap\ContourMap\obj\Debug\ContourMap.csproj.CoreCompileInputs.cache
+C:\Users\jb83292\source\repos\HoehenlinienMitDelanayTriangulation\ContourMap\ContourMap\obj\Debug\ContourMap.csproj.CopyComplete
+C:\Users\jb83292\source\repos\HoehenlinienMitDelanayTriangulation\ContourMap\ContourMap\obj\Debug\ContourMap.exe
+C:\Users\jb83292\source\repos\HoehenlinienMitDelanayTriangulation\ContourMap\ContourMap\obj\Debug\ContourMap.pdb

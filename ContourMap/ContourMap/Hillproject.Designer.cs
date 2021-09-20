@@ -34,16 +34,14 @@
             this.toolStripMenuItemCalculate = new System.Windows.Forms.ToolStripMenuItem();
             this.volumeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.optimalNumberOfTrucksToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.createToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripComboBox1 = new System.Windows.Forms.ToolStripComboBox();
             this.toolStripMenuItemDraw = new System.Windows.Forms.ToolStripMenuItem();
             this.hillProfilesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contourMapToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.delaunayTriangulationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.delaunayTriangulationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -82,8 +80,7 @@
             // 
             this.toolStripMenuItemCalculate.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.volumeToolStripMenuItem,
-            this.optimalNumberOfTrucksToolStripMenuItem,
-            this.createToolStripMenuItem});
+            this.optimalNumberOfTrucksToolStripMenuItem});
             this.toolStripMenuItemCalculate.Enabled = false;
             this.toolStripMenuItemCalculate.Name = "toolStripMenuItemCalculate";
             this.toolStripMenuItemCalculate.Size = new System.Drawing.Size(82, 24);
@@ -92,36 +89,16 @@
             // volumeToolStripMenuItem
             // 
             this.volumeToolStripMenuItem.Name = "volumeToolStripMenuItem";
-            this.volumeToolStripMenuItem.Size = new System.Drawing.Size(265, 26);
+            this.volumeToolStripMenuItem.Size = new System.Drawing.Size(253, 26);
             this.volumeToolStripMenuItem.Text = "Volume";
             this.volumeToolStripMenuItem.Click += new System.EventHandler(this.volumeToolStripMenuItem_Click);
             // 
             // optimalNumberOfTrucksToolStripMenuItem
             // 
             this.optimalNumberOfTrucksToolStripMenuItem.Name = "optimalNumberOfTrucksToolStripMenuItem";
-            this.optimalNumberOfTrucksToolStripMenuItem.Size = new System.Drawing.Size(265, 26);
+            this.optimalNumberOfTrucksToolStripMenuItem.Size = new System.Drawing.Size(253, 26);
             this.optimalNumberOfTrucksToolStripMenuItem.Text = "Optimal number of trucks";
             this.optimalNumberOfTrucksToolStripMenuItem.Click += new System.EventHandler(this.optimalNumberOfTrucksToolStripMenuItem_Click);
-            // 
-            // createToolStripMenuItem
-            // 
-            this.createToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripComboBox1});
-            this.createToolStripMenuItem.Name = "createToolStripMenuItem";
-            this.createToolStripMenuItem.Size = new System.Drawing.Size(265, 26);
-            this.createToolStripMenuItem.Text = "Create artificially measured";
-            // 
-            // toolStripComboBox1
-            // 
-            this.toolStripComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.toolStripComboBox1.Items.AddRange(new object[] {
-            "0.1",
-            "0.2",
-            "0.25",
-            "0.5",
-            "default"});
-            this.toolStripComboBox1.Name = "toolStripComboBox1";
-            this.toolStripComboBox1.Size = new System.Drawing.Size(121, 28);
             // 
             // toolStripMenuItemDraw
             // 
@@ -147,6 +124,13 @@
             this.contourMapToolStripMenuItem.Size = new System.Drawing.Size(239, 26);
             this.contourMapToolStripMenuItem.Text = "Contour map";
             this.contourMapToolStripMenuItem.Click += new System.EventHandler(this.contourMapToolStripMenuItem_Click);
+            // 
+            // delaunayTriangulationToolStripMenuItem
+            // 
+            this.delaunayTriangulationToolStripMenuItem.Name = "delaunayTriangulationToolStripMenuItem";
+            this.delaunayTriangulationToolStripMenuItem.Size = new System.Drawing.Size(239, 26);
+            this.delaunayTriangulationToolStripMenuItem.Text = "Delaunay-Triangulation";
+            this.delaunayTriangulationToolStripMenuItem.Click += new System.EventHandler(this.delaunayTriangulationToolStripMenuItem_Click);
             // 
             // statusStrip1
             // 
@@ -179,13 +163,6 @@
             this.splitContainer1.Size = new System.Drawing.Size(1372, 501);
             this.splitContainer1.SplitterDistance = 598;
             this.splitContainer1.TabIndex = 14;
-            // 
-            // delaunayTriangulationToolStripMenuItem
-            // 
-            this.delaunayTriangulationToolStripMenuItem.Name = "delaunayTriangulationToolStripMenuItem";
-            this.delaunayTriangulationToolStripMenuItem.Size = new System.Drawing.Size(239, 26);
-            this.delaunayTriangulationToolStripMenuItem.Text = "Delaunay-Triangulation";
-            this.delaunayTriangulationToolStripMenuItem.Click += new System.EventHandler(this.delaunayTriangulationToolStripMenuItem_Click);
             // 
             // Hillproject
             // 
@@ -223,8 +200,6 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
         private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.ToolStripMenuItem createToolStripMenuItem;
-        private System.Windows.Forms.ToolStripComboBox toolStripComboBox1;
         private System.Windows.Forms.ToolStripMenuItem delaunayTriangulationToolStripMenuItem;
     }
 }

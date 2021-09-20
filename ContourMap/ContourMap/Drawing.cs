@@ -77,37 +77,8 @@ namespace ContourMap
                 }
             }
             return sortedContourLine;
-                }
-
-        public static void DrawColumnSeries(ref PlotModel plot, List<double[]> data, int pointsInOneRow, double maxHeight, int rowNumber = 0)
-        {
-           
-            ColumnSeries columnSeries = PrepareColumnSeries(plot, maxHeight);
-
-            for (int i = 0; i < pointsInOneRow; i++)
-            {
-                columnSeries.Items.Add(new ColumnItem(data[i + pointsInOneRow * rowNumber][2]));
-            }
-
-            plot.Series.Add(columnSeries);
-            plot.InvalidatePlot(true);
-
         }
 
-        private static ColumnSeries PrepareColumnSeries(PlotModel plot, double maxHeight)
-        {
-            ColumnSeries columnSeries = new ColumnSeries();
-
-            LinearAxis height = new LinearAxis { Minimum = 0, Maximum = maxHeight };
-            height.IsZoomEnabled = false;
-            plot.Axes.Add(height);
-
-            CategoryAxis xAxis = new CategoryAxis { };
-            xAxis.IsZoomEnabled = false;
-            plot.Axes.Add(xAxis);
-
-            return columnSeries;
-        }
 
         public static void DrawEdges(List<Vector[]> edges, PlotModel model)
         {
